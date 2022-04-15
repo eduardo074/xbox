@@ -9,18 +9,17 @@
     font-family: "inter" , sans-serif;
 }
 body{
-    background-color: #0C0C0C;
-       
+    background-color: #0C0C0C;  
 }
+
 header{
     display: flex;
     width: 1200px;
     align-items: center;
     margin: 0% auto;
     margin-top: 20px;
-    
-    
 }
+
 nav li{
     display: inline;
 }
@@ -28,26 +27,28 @@ nav li{
 img{
     width: 144px;
     height: 44px;
-    
 }
 
 ul{
     padding: 0px 100px 0px 250px;
 }
+
 ul li{
     font-weight: 600;
     font-size: 17px;
     padding-right: 25px;
-    
 }
+
 ul li a{
     text-decoration: none;
     color: white;
 }
+
 ul li a:hover{
     color: #9BF00B;
     transition: 0.5s;
 }
+
 .btnheader{
     width: 224px;
     height: 60px;
@@ -57,12 +58,10 @@ ul li a:hover{
     font-size: 15px;
     cursor: pointer;
     transition: 0.5s;
-   
 }
 
 .btnheader:hover{
     background-color: #a6f027;
-
 }
 
 .produto h1{
@@ -72,6 +71,7 @@ ul li a:hover{
     text-align: center;
     color: white;
 }
+
 .produto p{
     margin-top: 50px;
     font-size: 24px;
@@ -79,6 +79,7 @@ ul li a:hover{
     color: #9BF00B;
     text-align: center;
 }
+
 .efeitoverde{
     position: absolute;
     width: 1000px;
@@ -87,10 +88,8 @@ ul li a:hover{
     opacity: 0.7;
     border: 1px solid #000000;
     filter: blur(250px);
-    
-    
-
 }
+
 .xbox{
     position: absolute;
     width: 1235px;
@@ -102,5 +101,4 @@ ul li a:hover{
 .conteinerimg{
     display: flex;
     justify-content: center;
-
 }
